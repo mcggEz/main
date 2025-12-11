@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Studio.Main — Digital Product Studio",
+  title: "studio.main — Digital Product Studio",
   description:
     "AI-powered product engineering, creative web, and high-performance experiences from Manila.",
 };

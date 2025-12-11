@@ -396,6 +396,16 @@ export default function LandingPage() {
               </h1>
             </div>
 
+            <div className="flex items-center gap-3 mt-6 reveal">
+              <span className="relative flex h-3 w-3">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60" />
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-400" />
+              </span>
+              <span className="text-[10px] uppercase tracking-[0.28em] text-zinc-500">
+                Online
+              </span>
+            </div>
+
             <div className="flex flex-col md:flex-row md:items-end justify-between mt-12 md:mt-24 gap-8 reveal">
               <p className="max-w-md text-sm md:text-base text-zinc-400 font-mono">
                 // We design & build AI-powered apps, motion-rich interfaces, and
