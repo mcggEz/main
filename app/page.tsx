@@ -186,7 +186,7 @@ const ProjectRow = ({
         <span className="font-mono text-xs text-zinc-500">
           0{index + 1}
         </span>
-        <h3 className="text-3xl md:text-5xl font-bold text-white group-hover:text-indigo-400 transition-colors">
+        <h3 className="text-3xl md:text-5xl font-bold text-white group-hover:text-white transition-colors">
           {title}
         </h3>
       </div>
@@ -551,7 +551,7 @@ export default function LandingPage() {
             <div className="flex flex-col justify-end items-start md:items-end">
               <a
                 href="mailto:hello@studio.main"
-                className="text-2xl md:text-4xl font-bold text-white hover:text-indigo-400 transition-colors border-b border-zinc-700 pb-2 mb-8"
+                className="text-2xl md:text-4xl font-bold text-white hover:text-white transition-colors border-b border-zinc-700 pb-2 mb-8"
               >
                 hello@studio.main
               </a>
